@@ -1,13 +1,29 @@
-title: "My Blogs Name"
-author: "Default Author Name"
-description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+title: "My Projects"
+author: "Giuseppe Riccio"
+description: "Master's student 👨‍🎓 in the Faculty of Computer Engineering at the University of Naples Federico II, specialising in 'Data Engineering and Artificial Intelligence'. Passionate about new AI-related technologies to support critical sectors such as 'Healthcare', 'Public Transport' and 'Automotive'. In particular, thanks to the Big Data course, I was fascinated by the technologies supporting Data Analysis of large masses of data such as Hadoop, Spark (and SparkQL) and Hive.
+
+💡 My skills acquired in the university environment include:
+🤖 Machine Learning
+📊 Data analysis
+🔢 Big Data
+📈 Business Intelligence
+🍃 MongoDB
+🔩 NoSQL
+🔗 Neo4j
+🗃️ SQL
+📈 Power BI
+🐝 Hive
+🐍 Python
+📊 Excel
+
+Furthermore, during my university career, I had the opportunity to work in groups on various projects, and thanks to the methodologies learnt during the course to obtain the title 'PMI Disciplined Agile Scrum Master', I experienced agile techniques such as Sprint Review, Daily Scrum and Pair-Programming in such group projects." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
 # Email / Social media user names used by the minima theme:
 # All of these are optional and can be removed or commented out
-email: "example@mail.com"
-twitter_username: "twitteruser"
-github_username: "githubuser"
-linkedin_username: "linkedinuser"
+email: "ricciogiuseppe2013@libero.it"
+twitter_username: "giuseppericcio_"
+github_username: "giuseppericcio"
+linkedin_username: "giuseppe-riccio"
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
