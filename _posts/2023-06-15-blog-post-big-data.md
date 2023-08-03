@@ -20,7 +20,7 @@ The project aims at the extraction of semi-structured textual data (interrelated
 </div>
 
 ## 🗊 Extract final demo report of the 'Healthcare Summarization' solution
-https://github.com/giuseppericcio/HealthcareSummarizationMIMIC/assets/64225083/67312049-1e65-465f-b148-f4a42e56cca4
+<iframe width="560" height="315" src="https://github.com/giuseppericcio/HealthcareSummarizationMIMIC/assets/64225083/67312049-1e65-465f-b148-f4a42e56cca4" frameborder="0" allowfullscreen></iframe>
 
 <hr>
 
