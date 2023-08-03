@@ -28,7 +28,8 @@ E' possibile consultare la completa documentazione al seguente link <a title="Li
 - Uso del prodotto software
 
 ## 🔧 Tools utilizzati
-|                       **FRONT END**                       |  **TOOLS**                |
+
+| **FRONT END**                                             | **TOOLS**                 |
 |-----------------------------------------------------------|---------------------------|
 | _FRAMEWORK_                                               | BOOTSTRAP                 |
 | _LANGUAGE_                                                | HTML, CSS, JS             |
