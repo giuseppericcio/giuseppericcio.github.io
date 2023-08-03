@@ -8,6 +8,7 @@ email: "ricciogiuseppe2013@libero.it"
 twitter_username: "giuseppericcio_"
 github_username: "giuseppericcio"
 linkedin_username: "giuseppe-riccio"
+#rss: rss
 #facebook_username: username
 #flickr_username: username
 #instagram_username: username
@@ -19,8 +20,6 @@ linkedin_username: "giuseppe-riccio"
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
 theme: "minima"
-
-rss: rss
 
 kramdown:
   syntax_highlighter_opts:
