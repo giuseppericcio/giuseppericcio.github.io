@@ -22,7 +22,7 @@ Il documento realizzato è suddiviso in sezioni:
 
 <hr>
 
-### Overview del progetto>
+### Overview del progetto
 # La soluzione al problema (Class Diagram Package Completo)
 
 La realizzazione del diagramma dei Package Completo è stata ottenuta a partire dall’individuazione nei sequence di progettazione delle seguenti classi:
