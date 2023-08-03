@@ -10,7 +10,7 @@
 ## 🚩 La Web Application 
 Si desidera realizzare il sistema **SelfTest COVID-19** che sulla base dell’esito del test attiva la relativa prenotazione di un tampone in una delle farmacie più vicine al paziente, dunque un semplice servizio gestione prenotazioni tamponi nelle farmacie. 
 Il SelfTest è un modello in grado di predire una certa probabilità di infezione al SARS-CoV-2(COVID-19) in base ai sintomi e/o alle malattie che il paziente manifesta e guidarlo a come comportarsi in caso di alta probabilità di infezione.
-Ad esempio, se il sistema predice che il paziente X abbia una **probabilità di infezione tra il 75\% e il 100\%** allora verrà consigliato di recarsi in un centro di tamponi (farmacia, ecc. ) e di fare un **tampone molecolare**. Se il sistema predice che il paziente Y abbia una **probabilità di infezione tra il 50\% e il 75\%** allora verrà consigliato di fare un **tampone rapido** alla farmacia più vicina ad esso.
+Ad esempio, se il sistema predice che il paziente X abbia una **probabilità di infezione tra il 75% e il 100%** allora verrà consigliato di recarsi in un centro di tamponi (farmacia, ecc. ) e di fare un **tampone molecolare**. Se il sistema predice che il paziente Y abbia una **probabilità di infezione tra il 50% e il 75%** allora verrà consigliato di fare un **tampone rapido** alla farmacia più vicina ad esso.
 
 *🏁 Il sistema cerca di diminuire il numero di persone che si recano nelle farmacie per effettuare i tamponi al fine di evitare disservizi nelle stesse e per risparmiare sul costo dei tamponi da parte dei pazienti. In che modo? Prevedendo la probabilità potenziale al COVID-19 e in base al valore ottenuto può effettuare o meno una prenotazione del tampone alla farmacia più vicina.*
 
@@ -28,24 +28,24 @@ E' possibile consultare la completa documentazione al seguente link <a title="Li
 - Uso del prodotto software
 
 ## 🔧 Tools utilizzati
-|                       **FRONT END**                       |  **TOOLS**                  |
-|:---------------------------------------------------------:|--------------------|
-| _FRAMEWORK_                                               | BOOTSTRAP          |
-| _LANGUAGE_                                                | HTML, CSS, JS      |
-|                        **BACK END**                       |                    |
-| _FRAMEWORK_                                               | FLASK              |
-| _LANGUAGE_                                                | PYTHON             |
+|                       **FRONT END**                       |  **TOOLS**                |
+|-----------------------------------------------------------|---------------------------|
+| _FRAMEWORK_                                               | BOOTSTRAP                 |
+| _LANGUAGE_                                                | HTML, CSS, JS             |
+|                        **BACK END**                       |                           |
+| _FRAMEWORK_                                               | FLASK                     |
+| _LANGUAGE_                                                | PYTHON                    |
 | _TESTING_                                                 | PYTEST, LOCUST, GTMETRIX  |
-| _DATABASE_                                                | SQLITE             |
-| **TOOLS PER IL SUPPORTO ALLA REALIZZAZIONE DEL SOFTWARE** |                    |
-| _CODE_                                                    | VISUAL STUDIO CODE |
-| _UML DESIGN_                                              | VISUAL PARADIGM    |
-| _SCRUM SUPPORT_                                           | JIRA               |
-| _WEB HOSTING_                                             | PYTHONANYWHERE     |
+| _DATABASE_                                                | SQLITE                    |
+| **TOOLS PER IL SUPPORTO ALLA REALIZZAZIONE DEL SOFTWARE** |                           |
+| _CODE_                                                    | VISUAL STUDIO CODE        |
+| _UML DESIGN_                                              | VISUAL PARADIGM           |
+| _SCRUM SUPPORT_                                           | JIRA                      |
+| _WEB HOSTING_                                             | PYTHONANYWHERE            |
 
 ## 📈 System Context Diagram
 Il diagramma seguente mostra ad alto livello come gli attori esterni (il paziente, il paziente registrato, la farmacia e l'admin di sistema) interagiscono con il sistema. In particolare, all'accesso del sistema, al *paziente* viene mostrato il form del *Modello di ML* per la predizione al COVID19, esso inserirà i sintomi e malattie che esso manifesta e il sistema restituirà l'esito. 
-Se l'**esito del test** è compreso tra il 50\% e il 75\% verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone rapido alla farmacia più vicina. Se l'esito è maggiore del 75\% allora verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone molecolare alla farmacia più vicina. Effettuando la prenotazione, il paziente si registra al sistema, se già non lo è, diventando così un *paziente registrato*. La *farmacia* aggiornerà la disponibilità dei tamponi rapidi/molecolari e aggiungerà l'esito del tampone effettuato al paziente. 
+Se l'**esito del test** è compreso tra il 50% e il 75% verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone rapido alla farmacia più vicina. Se l'esito è maggiore del 75% allora verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone molecolare alla farmacia più vicina. Effettuando la prenotazione, il paziente si registra al sistema, se già non lo è, diventando così un *paziente registrato*. La *farmacia* aggiornerà la disponibilità dei tamponi rapidi/molecolari e aggiungerà l'esito del tampone effettuato al paziente. 
 L'*admin di sistema* aggiornerà la lista delle farmacie aderenti al sistema. Inoltre aggiornerà il modello di ML per migliorare l'accuratezza dei risultati.
 
 <div align="center">
