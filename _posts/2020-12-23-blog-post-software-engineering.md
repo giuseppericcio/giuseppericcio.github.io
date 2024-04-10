@@ -1,3 +1,11 @@
+---
+layout: post
+title: ☎️ Call Center Software System
+description: La seguente trattazione è mirata al ciclo di realizzazione di un sistema software dedicato a chi gestisce, o chi vuole cominciare a gestire: un call center, un’attività di telemarketing, di prenotazioni appuntamenti, operatore telefonici oppure un’attività inhouse nella propria azienda.
+date: 2020-12-23
+tags: Bachelor Degree's Project
+---
+
 # ☎️ Call Center Software System
 La seguente trattazione è mirata al ciclo di realizzazione di un sistema software dedicato a chi gestisce, o chi vuole cominciare a gestire: un call center, un’attività di telemarketing, di prenotazioni appuntamenti, operatore telefonici oppure un’attività inhouse nella propria azienda. 
 Si analizzeranno gli strumenti ed i sistemi che consentiranno il raggiungimento di un’efficienza massima, sia nel numero di chiamate che di telefonate svolte e vendite completate. **La trattazione si focalizzerà sulle funzioni e le definizioni che potranno facilitare il lavoro quotidiano di amministratori, amministratori di sistema, centralinisti e agenti vendita e la loro interazione.**   
