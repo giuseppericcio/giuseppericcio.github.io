@@ -3,7 +3,7 @@ layout: post
 title: Call Center Software System
 description: La seguente trattazione è mirata al ciclo di realizzazione di un sistema software dedicato alla gestione di un call center.
 date: 2020-12-23
-tags: Bachelor Degree's Project
+tags: GitHub-Projects
 ---
 
 # ☎️ Call Center Software System
