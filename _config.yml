@@ -27,11 +27,12 @@ kramdown:
 
 header_pages:
   - resume.md
-  - [Publications](https://scholar.google.com/citations?user=et4jCA4AAAAJ&hl)
+  - publications.md
   - archive.md
 
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 comments_repo: giuseppericcio/giuseppericcio.github.io
 
