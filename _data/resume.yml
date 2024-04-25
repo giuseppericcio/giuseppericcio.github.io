@@ -1,19 +1,16 @@
 theme: default
 header:
-  name: Chad Baldwin
-  suffix: MCSA
+  name: Giuseppe Riccio
+  suffix:
   display_contact_info: true
-  current_title: Senior Database Developer
+  current_title: AI & Data Engineer
   intro: >
-    Motivated and versatile software and database developer, MCSA certified in Database
-    Development. Proficient in schema design, data normalization techniques and query/index tuning.
-    Always looking for new challenges and new technologies to learn. Experienced with the software
-    development life cycle (SDLC) utilizing various project management methodologies including
-    Agile, Scrum and Kanban. Efficient working both independently and in a team environment.
+    🚀 Enthusiastic Data Engineer & AI Specialist - Passionately Exploring AI & NLP Solutions in Healthcare
+    🎓 Master’s Degree in Computer Engineering, specializing in Data Engineering and Artificial Intelligence from the University of Naples Federico II with a concentration on Healthcare Decision Support and Graph Machine Learning.
 contact:
-  #address: 123 Main St, Test, CA 91234
-  #phone: (123) 456-7890
-  email: resume@chadbaldwin.net
+  #address:
+  #phone:
+  email: ricciogiuseppe2013@libero.it
 sections:
   experience:   true
   education:    true
@@ -25,11 +22,11 @@ sections:
   links:        true
   social_links: false
 social:
-  Website:    http://chadbaldwin.net
-  GitHub:     https://github.com/chadbaldwin
-  Twitter:    https://twitter.com/chad_baldwin
+  Website:    http://giuseppericcio.github.io
+  GitHub:     https://github.com/giuseppericcio
+  Twitter:    https://twitter.com/giuseppericcio_
   #Dribbble:  https://dribbble.com/chadbaldwin
   #FaceBook:  https://facebook.com/iamchadbaldwin
-  LinkedIn:   https://linkedin.com/in/chadbaldwin
+  LinkedIn:   https://linkedin.com/in/giuseppe-riccio
   #Instagram: https://instagram.com/chad_baldwin
-  #Medium:    https://medium.com/@chad-baldwin
+  Medium:    https://medium.com/@giuseppe.riccio
