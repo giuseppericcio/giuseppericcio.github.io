@@ -1,3 +1,11 @@
+---
+layout: post
+title: Workflow for Executing CNN Networks on Zynq Ultrascale+ with VITIS AI
+description: In this project, we present a detailed analysis of configuring, installing, and running a Convolutional Neural Network (CNN) on the Zynq Ultrascale+ board (ZCU102). This platform combines a multiprocessor system-on-chip (MPSoC) with an FPGA, offering hardware acceleration specifically tailored for efficient execution of neural networks, minimizing the computational load on the main processor.
+date: 2023-07-26
+tags: GitHub-Projects
+---
+
 # Workflow for Executing CNN Networks on Zynq Ultrascale+ with VITIS AI  🚀
 
 [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
