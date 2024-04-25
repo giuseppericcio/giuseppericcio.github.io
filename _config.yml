@@ -27,7 +27,7 @@ kramdown:
 
 header_pages:
   - resume.md
-  - publications.md
+  - [Publications](https://scholar.google.com/citations?user=et4jCA4AAAAJ&hl)
   - archive.md
 
 plugins:
