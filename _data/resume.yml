@@ -1,11 +1,11 @@
 theme: default
 header:
   name: Giuseppe Riccio
-  suffix:
   display_contact_info: true
   current_title: AI & Data Engineer
   intro: >
     🚀 Enthusiastic Data Engineer & AI Specialist - Passionately Exploring AI & NLP Solutions in Healthcare
+    
     🎓 Master’s Degree in Computer Engineering, specializing in Data Engineering and Artificial Intelligence from the University of Naples Federico II with a concentration on Healthcare Decision Support and Graph Machine Learning.
 contact:
   #address:
