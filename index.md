@@ -1,5 +1,5 @@
 ### More about me
-🚀 Enthusiastic Data Engineer & AI Specialist | Passionately Exploring AI & NLP Solutions in Healthcare
+🚀 Enthusiastic Data Engineer & AI Specialist - Passionately Exploring AI & NLP Solutions in Healthcare
 
 🎓 Master's Degree in Computer Engineering, specializing in Data Engineering and Artificial Intelligence from the University of Naples Federico II with a concentration on Healthcare Decision Support and Graph Machine Learning.
 
