@@ -27,6 +27,7 @@ kramdown:
 
 header_pages:
   - resume.md
+  - publications.md
   - archive.md
 
 plugins:
