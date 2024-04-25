@@ -32,6 +32,8 @@ header_pages:
 plugins:
   - jekyll-sitemap
 
+comments_repo: giuseppericcio/giuseppericcio.github.io
+
 titles_from_headings:
   strip_title: true
   collections: true
