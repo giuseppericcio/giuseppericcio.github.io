@@ -1,3 +1,11 @@
+---
+layout: post
+title: SelfTest COVID-19
+description: Si desidera realizzare il sistema SelfTest COVID-19 che sulla base dell’esito del test attiva la relativa prenotazione di un tampone in una delle farmacie più vicine al paziente, dunque un semplice servizio gestione prenotazioni tamponi nelle farmacie. 
+date: 2022-09-14
+tags: GitHub-Projects
+---
+
 # 🦠 SelfTest COVID-19
 [![Test di Unità](https://github.com/giuseppericcio/SelfTestCovid19/actions/workflows/Unit_Test.yml/badge.svg)](https://github.com/giuseppericcio/SelfTestCovid19/actions/workflows/Unit_Test.yml)
 ![Downloads](https://img.shields.io/github/downloads/giuseppericcio/SelfTestCovid19/total)
