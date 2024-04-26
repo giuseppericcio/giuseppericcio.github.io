@@ -1,6 +1,7 @@
 theme: default
 header:
   name: Giuseppe Riccio
+  suffix: AI & Data Engineer
   display_contact_info: true
   current_title: AI & Data Engineer
   intro: >
