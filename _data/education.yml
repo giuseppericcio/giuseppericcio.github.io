@@ -1,9 +1,18 @@
-- degree: Cisco Networking certification program
-  uni: Riverside Community College
-  year: 2009 &mdash; 2013
+- degree: MSc degree in Computer Engineering
+  uni: University of Naples Federico II
+  year: 2021 &mdash; 2024
+  awards:
+      - award: Graduated with Honors
   summary: >
-    Focused on computer science and Cisco networking. Completed the 4 course
-    Cisco Networking certification program, and received a certificate of completion.
+    
+
+- degree: Bachelor degree in Computer Engineering
+  uni: University of Naples Federico II
+  year: 2018 &mdash; 2021
+  awards:
+      - award: Graduated with Honors
+  summary: >
+    
 
 #- degree: High School Diploma
 #  uni: Fountain Valley High School
