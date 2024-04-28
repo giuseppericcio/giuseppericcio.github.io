@@ -1,70 +1,75 @@
 ---
 layout: post
 title: Call Center Software System
-description: La seguente trattazione è mirata al ciclo di realizzazione di un sistema software dedicato alla gestione di un call center.
+description: This document aims at the development cycle of a software system dedicated to managing a call center.
 date: 2020-12-23
 tags: GitHub-Projects
 ---
 
 # ☎️ Call Center Software System
-La seguente trattazione è mirata al ciclo di realizzazione di un sistema software dedicato a chi gestisce, o chi vuole cominciare a gestire: un call center, un’attività di telemarketing, di prenotazioni appuntamenti, operatore telefonici oppure un’attività inhouse nella propria azienda. 
-Si analizzeranno gli strumenti ed i sistemi che consentiranno il raggiungimento di un’efficienza massima, sia nel numero di chiamate che di telefonate svolte e vendite completate. **La trattazione si focalizzerà sulle funzioni e le definizioni che potranno facilitare il lavoro quotidiano di amministratori, amministratori di sistema, centralinisti e agenti vendita e la loro interazione.**   
 
-# 💡 La nostra idea
-Il nome del nostro sistema software di gestione di un call center è IOCaller Software System (aiokôlər) l’acronimo IO sta ad indicare “**Inbound e Outbound**” ove indicano le due classificazioni dei centralinisti. Sottostante una proposta di logo del sistema software in questione.
+[![Licence](https://img.shields.io/github/license/giuseppericcio/CallCenterManagementSystem_prototipo?style=for-the-badge)](./LICENSE)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+This document focuses on the development cycle of a software system dedicated to those who manage or intend to start managing: a call center, telemarketing activity, appointment booking, telephone operators, or in-house activity within their own company. It will analyze the tools and systems that will enable maximum efficiency, both in the number of calls made and completed sales. **The discussion will focus on the functions and definitions that can facilitate the daily work of administrators, system administrators, switchboard operators, sales agents, and their interaction.**
+
+# 💡 Our Idea
+The name of our call center management software system is IOCaller Software System (aiokôlər), where IO stands for "**Inbound and Outbound**", indicating the two classifications of switchboard operators. Below is a proposed logo for the software system in question.
 
 <p align="center">
   <img src="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/GestioneCallCenter/images/logo.png?raw=true">
 </p>
 
-# 📄 Il documento completo (Ciclo di realizzazione del Software)
-La documentazione è consultabile al seguente <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Documento_IS.pdf">link</a><br>
-Il documento realizzato è suddiviso in sezioni:
-- *Introduzione*
-- *Documentazione della specifica dei dati*
-- *Documentazione di Analisi*
-- *Documentazione di Progettazione*
-- *Documento di Implementazione*
-- *Implementazione Software*
-- *Documento di Testing*
+# 📄 Full Document (Software Development Cycle)
+The documentation can be found at the following <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Documento_IS.pdf">link</a><br>
+The document is divided into sections:
+- *Introduction*
+- *Data Specification Documentation*
+- *Analysis Documentation*
+- *Design Documentation*
+- *Implementation Document*
+- *Software Implementation*
+- *Testing Document*
 
 <hr>
 
-### Overview del progetto
-# La soluzione al problema (Class Diagram Package Completo)
+### Project Overview
+# Solution to the Problem (Complete Package Class Diagram)
 
-La realizzazione del diagramma dei Package Completo è stata ottenuta a partire dall’individuazione nei sequence di progettazione delle seguenti classi:
--	Classe *ConsoleBoundary*
--	Classe *Controller e ControllerImpl*
--	Classe *Entity*
--	Classe *DAO (Interazione con il Database)*
+The realization of the Complete Package Diagram was obtained starting from the identification in the design sequences of the following classes:
+- *ConsoleBoundary Class*
+- *Controller and ControllerImpl Classes*
+- *Entity Class*
+- *DAO (Database Interaction) Class*
 
 <p align="center">
   <img src="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Diagrammi/Class%20Diagram.png?raw=true">
 </p>
 
 
-# Dal Class Diagram Package alla realizzazione del Software
-Si mostra la gerarchia delle interfacce realizzate del Software, (invitiamo ovviamente al lettore che questo grafico è il risultato di un'implementazine completa presente nella repository)
+# From Class Diagram Package to Software Implementation
+We show the hierarchy of the implemented Software interfaces, (we obviously invite the reader that this graph is the result of a complete implementation present in the repository)
 <p align="center">
   <img src="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Diagrammi/GerachiaInterfaccia.JPG?raw=true">
 </p>
 
 
-# Prova ad eseguire il nostro programmino di prova
-È possibile provare il programma realizzato seguendo i seguenti passi
-- <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/IOCaller.jar">Scaricare il file.jar</a> 
-- <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Database">Scaricare il database</a>
+# Try Running Our Sample Program
+You can try running the program by following these steps
+- <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/IOCaller.jar">Download the .jar file</a> 
+- <a href="https://github.com/iocaller/CallCenterManagementSystem_prototipo/blob/main/Database">Download the database</a>
 
-## 🔧 Prerequisiti
+## 🔧 Prerequisites
 - Java Virtual Machine
-- Installazione di <a href="https://www.apachefriends.org/it/download.html">MySQL</a> sul terminale e installazione del database lasciato in dotazione
+- Installation of <a href="https://www.apachefriends.org/it/download.html">MySQL</a> on the terminal and installation of the provided database
 
-# Gli Autori (Team - 9, Progetto Ingegneria del Software)
-- Antonio Romano
-- Giuseppe Riccio
+# Authors (Team - 9, Software Engineering Project)
+- [Antonio Romano](https://github.com/LaErre9/)
+- [Giuseppe Riccio](https://github.com/giuseppericcio/)
 - Salvatore Pernice
 - Giovanni Scognamiglio
 
-# Progetto realizzato per soli scopi dimostrativi ed educativi
-La seguente trattazione è mirata alla realizzazione di un progetto software per l'esame di Ingegneria del Software all'**Università degli Studi di Napoli Federico II** seguendo una documentazione adeguata.
+# Project Created for Demonstration and Educational Purposes
+This document aims to develop a software project for the **University of Naples Federico II** Software Engineering exam following appropriate documentation.
