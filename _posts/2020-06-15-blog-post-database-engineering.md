@@ -8,7 +8,7 @@ tags: GitHub-Projects
 
 # 🔍🦠 ReverseEngineering-DB-Covid19
 
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+[![Licence](https://img.shields.io/github/license/giuseppericcio/ReverseEngineering-DB-Covid19?style=for-the-badge)](./LICENSE)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
 The following discussion aims at Reverse Engineering a complex database regarding the trend of Coronavirus COVID-19 infection starting from the first cases in Italy: February 25, 2020, until May 3, 2020. The deconstruction will be based on a master table, rewriting and reconstructing the database architecture with further analysis and development of the database through a more in-depth analysis, also eliminating additional redundancies through the normalization process. The development of the database will then be expanded to collect all the necessary data to determine the spread of the infection in provinces, regions, and worldwide.
