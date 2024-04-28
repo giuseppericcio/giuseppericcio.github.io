@@ -1,41 +1,44 @@
 ---
 layout: post
 title: SelfTest COVID-19
-description: Si desidera realizzare il sistema SelfTest COVID-19 che sulla base dell’esito del test attiva la relativa prenotazione di un tampone in una delle farmacie più vicine al paziente, dunque un semplice servizio gestione prenotazioni tamponi nelle farmacie. 
+description: The aim is to create the SelfTest COVID-19 system which, based on the test result, activates the related booking for a swab at one of the pharmacies closest to the patient, thus a simple service for managing swab bookings in pharmacies.
 date: 2022-09-14
 tags: GitHub-Projects
 ---
 
 # 🦠 SelfTest COVID-19
-[![Test di Unità](https://github.com/giuseppericcio/SelfTestCovid19/actions/workflows/Unit_Test.yml/badge.svg)](https://github.com/giuseppericcio/SelfTestCovid19/actions/workflows/Unit_Test.yml)
-![Downloads](https://img.shields.io/github/downloads/giuseppericcio/SelfTestCovid19/total)
-![GitHub](https://img.shields.io/github/license/giuseppericcio/SelfTestCovid19)
+
+![Downloads](https://img.shields.io/github/downloads/giuseppericcio/SelfTestCovid19/total?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/giuseppericcio/SelfTestCovid19?style=for-the-badge)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
 <div align="center">
   <img src="https://github.com/giuseppericcio/SelfTestCovid19/blob/main/static/LogoOrizzontale.png?raw=true" width="588"/>
 </div>
 
-## 🚩 La Web Application 
-Si desidera realizzare il sistema **SelfTest COVID-19** che sulla base dell’esito del test attiva la relativa prenotazione di un tampone in una delle farmacie più vicine al paziente, dunque un semplice servizio gestione prenotazioni tamponi nelle farmacie. 
-Il SelfTest è un modello in grado di predire una certa probabilità di infezione al SARS-CoV-2(COVID-19) in base ai sintomi e/o alle malattie che il paziente manifesta e guidarlo a come comportarsi in caso di alta probabilità di infezione.
-Ad esempio, se il sistema predice che il paziente X abbia una **probabilità di infezione tra il 75% e il 100%** allora verrà consigliato di recarsi in un centro di tamponi (farmacia, ecc. ) e di fare un **tampone molecolare**. Se il sistema predice che il paziente Y abbia una **probabilità di infezione tra il 50% e il 75%** allora verrà consigliato di fare un **tampone rapido** alla farmacia più vicina ad esso.
+## 🚩 The Web Application 
+The **SelfTest COVID-19** system is aimed at activating the relative booking of a swab at one of the pharmacies closest to the patient based on the test result, thus a simple service for managing swab bookings in pharmacies.
+The SelfTest is a model capable of predicting a certain probability of SARS-CoV-2 (COVID-19) infection based on the symptoms and/or diseases the patient manifests and guiding them on how to behave in case of a high probability of infection.
+For example, if the system predicts that patient X has a **probability of infection between 75% and 100%**, they will be advised to go to a testing center (pharmacy, etc.) and take a **molecular swab**. If the system predicts that patient Y has a **probability of infection between 50% and 75%**, they will be advised to take a **rapid swab** at the nearest pharmacy.
 
-*🏁 Il sistema cerca di diminuire il numero di persone che si recano nelle farmacie per effettuare i tamponi al fine di evitare disservizi nelle stesse e per risparmiare sul costo dei tamponi da parte dei pazienti. In che modo? Prevedendo la probabilità potenziale al COVID-19 e in base al valore ottenuto può effettuare o meno una prenotazione del tampone alla farmacia più vicina.*
+*🏁 The system aims to reduce the number of people going to pharmacies to perform swabs in order to avoid service disruptions and to save on the cost of swabs for patients. How? By predicting the potential probability of COVID-19 and based on the obtained value, it can make a swab booking at the nearest pharmacy or not.*
 
-## 📋 La Documentazione
-E' possibile consultare la completa documentazione al seguente link <a title="Link al documento" href="https://github.com/giuseppericcio/SelfTestCovid19/blob/main/Progetto%20SAD%20-%20Antonio%20Romano%20M63001315%20-%20Giuseppe%20Riccio%20M63001314.pdf">
-🔗 documento </a>
-- Introduzione
-- Avvio della progettazione
-- Processo di sviluppo
-- Analisi dei requisiti
-- Architettura e progettazione del software
-- Implementazione del software
+## 📋 Documentation
+The complete documentation can be found at the following <a title="Link to the document" href="https://github.com/giuseppericcio/SelfTestCovid19/blob/main/Progetto%20SAD%20-%20Antonio%20Romano%20M63001315%20-%20Giuseppe%20Riccio%20M63001314.pdf">
+🔗 link </a>
+- Introduction
+- Design Start
+- Development Process
+- Requirements Analysis
+- Software Architecture and Design
+- Software Implementation
 - Testing
-- Rilascio del software
-- Uso del prodotto software
+- Software Release
+- Use of the Software Product
 
-## 🔧 Tools utilizzati
+## 🔧 Tools Used
 
 | **FRONT END**                                             | **TOOLS**                 |
 |-----------------------------------------------------------|---------------------------|
@@ -46,46 +49,46 @@ E' possibile consultare la completa documentazione al seguente link <a title="Li
 | _LANGUAGE_                                                | PYTHON                    |
 | _TESTING_                                                 | PYTEST, LOCUST, GTMETRIX  |
 | _DATABASE_                                                | SQLITE                    |
-| **TOOLS PER IL SUPPORTO ALLA REALIZZAZIONE DEL SOFTWARE** |                           |
+| **TOOLS FOR SOFTWARE DEVELOPMENT SUPPORT**                |                           |
 | _CODE_                                                    | VISUAL STUDIO CODE        |
 | _UML DESIGN_                                              | VISUAL PARADIGM           |
 | _SCRUM SUPPORT_                                           | JIRA                      |
 | _WEB HOSTING_                                             | PYTHONANYWHERE            |
 
 ## 📈 System Context Diagram
-Il diagramma seguente mostra ad alto livello come gli attori esterni (il paziente, il paziente registrato, la farmacia e l'admin di sistema) interagiscono con il sistema. In particolare, all'accesso del sistema, al *paziente* viene mostrato il form del *Modello di ML* per la predizione al COVID19, esso inserirà i sintomi e malattie che esso manifesta e il sistema restituirà l'esito. 
-Se l'**esito del test** è compreso tra il 50% e il 75% verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone rapido alla farmacia più vicina. Se l'esito è maggiore del 75% allora verrà indirizzato in maniera automatica al sistema di prenotazione di un tampone molecolare alla farmacia più vicina. Effettuando la prenotazione, il paziente si registra al sistema, se già non lo è, diventando così un *paziente registrato*. La *farmacia* aggiornerà la disponibilità dei tamponi rapidi/molecolari e aggiungerà l'esito del tampone effettuato al paziente. 
-L'*admin di sistema* aggiornerà la lista delle farmacie aderenti al sistema. Inoltre aggiornerà il modello di ML per migliorare l'accuratezza dei risultati.
+The following diagram shows at a high level how external actors (the patient, the registered patient, the pharmacy, and the system admin) interact with the system. In particular, upon accessing the system, the *patient* is shown the *ML Model* form for predicting COVID19, where they will enter the symptoms and diseases they manifest, and the system will return the result.
+If the **test result** is between 50% and 75%, the patient will be automatically directed to the rapid swab booking system at the nearest pharmacy. If the result is greater than 75%, the patient will be automatically directed to the molecular swab booking system at the nearest pharmacy. By making the booking, the patient registers with the system, if they are not already registered, thus becoming a *registered patient*. The *pharmacy* will update the availability of rapid/molecular swabs and add the result of the swab performed on the patient. 
+The *system admin* will update the list of pharmacies participating in the system. Additionally, they will update the ML model to improve result accuracy.
 
 <div align="center">
   <img src="https://github.com/giuseppericcio/SelfTestCovid19/blob/main/Immagini%20e%20Diagrammi/Diagrammi%20UML/System%20Context%20Diagram%20SelfTestCOVID19.png?raw=true" width="788"/>
 </div>
 
-## ✏️ Come funziona il test
+## ✏️ How the Test Works
 <div align="center">
 <center><img src="https://selftestcovid19.pythonanywhere.com/static/SchemeTestFunction.jpg" width="788"/></center>
 </div>
 
-## 📽️ Video Demo della Web Application
-Si mostrano tutte le funzionalità implementate nella web application, dallo svolgimento del test fino alla gestione delle farmacie aderenti al sistema.
+## 📽️ Video Demo of the Web Application
+The video demonstrates all the functionalities implemented in the web application, from performing the test to managing pharmacies participating in the system.
 
-<iframe width="560" height="315" src="https://user-images.githubusercontent.com/64225083/188891848-4e4ad96a-c5f2-485f-b708-99068c5bee3d.mp4" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="100%" src="https://user-images.githubusercontent.com/64225083/188891848-4e4ad96a-c5f2-485f-b708-99068c5bee3d.mp4" frameborder="0" allowfullscreen></iframe>
 
-⚠️ **ATTENZIONE** L’applicazione realizzata è solo a scopo dimostrativo, pertanto la probabilità calcolata può risultare incerta giacché, come già detto in precedenza, il dataset è datato e non aggiornato e i sintomi del virus mutano e variano ogni giorno. I sintomi, malattie e informazioni relative al COVID19 inserite nel selftest non verranno memorizzate. 
+⚠️ **ATTENTION** The application developed is for demonstration purposes only, therefore the calculated probability may be uncertain since, as previously mentioned, the dataset is dated and not updated, and the symptoms of the virus change and vary every day. The symptoms, diseases, and information related to COVID19 entered in the self-test will not be stored.
 
-## ✔️ La Web App è disponibile, basta un browser! 
-Al seguente link si può provare la web application <a title="Link al sito" href="https://selftestcovid19.pythonanywhere.com">
+## ✔️ The Web App is available, just a browser away!
+You can try the web application at the following link <a title="Link to the website" href="https://selftestcovid19.pythonanywhere.com">
 🔗 WebApp </a>
 
-**Credenziali di accesso**
+**Access Credentials**
 
 😎 ADMIN: *username* **admin** *password* **admin** 
 
-😀 FARMACIA: *username* **donbosco@farmacia.it** *password* **prova1** (*puoi cambiare farmacia entrando dall'ADMIN*)
+😀 PHARMACY: *username* **donbosco@farmacia.it** *password* **prova1** (*you can change the pharmacy by logging in as ADMIN*)
 
-# Gli Autori
-- <a title="Antonio Romano" href="https://github.com/LaErre9" target="_blank" > Antonio Romano </a>
-- <a title="Giuseppe Riccio" href="https://github.com/giuseppericcio" target="_blank" > Giuseppe Riccio </a>
+# The Authors
+- [Antonio Romano](https://github.com/LaErre9)
+- [Giuseppe Riccio](https://github.com/giuseppericcio)
 
-# Progetto realizzato per soli scopi dimostrativi ed educativi
-La seguente trattazione è mirata alla realizzazione di un progetto software per l'esame di Software Architecture Design (A.A 2021/2022) all'**Università degli Studi di Napoli Federico II**.
+# Project created for demonstration and educational purposes
+This document aims to develop a software project for the Software Architecture Design exam (A.Y. 2021/2022) at the **University of Naples Federico II**.
