@@ -34,6 +34,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 
+google_analytics:
+  - G-ETM7PRGZJX # New GA4 property
+
 comments_repo: giuseppericcio/giuseppericcio.github.io
 
 titles_from_headings:
