@@ -19,14 +19,19 @@
 <body>
   <nav class="nav">
     <a class="nav-home" href="{{ '/' | relative_url }}">{{ site.author }}</a>
-    {%- if page.url == '/' %}
-    <a href="#news">News</a>
-    <a href="#publications">Publications</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#awards">Awards</a>
-    {%- endif %}
-    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <button class="nav-burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links">
+      {%- if page.url == '/' %}
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#awards">Awards</a>
+      {%- endif %}
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    </div>
   </nav>
 
   <main class="page">
@@ -57,6 +62,11 @@
       });
       mq.addEventListener('change', sync);
       sync();
+
+      var nav = document.querySelector('.nav'), burger = nav.querySelector('.nav-burger');
+      function setOpen(open) { nav.classList.toggle('open', open); burger.setAttribute('aria-expanded', open); }
+      burger.addEventListener('click', function () { setOpen(!nav.classList.contains('open')); });
+      nav.querySelectorAll('.nav-links a').forEach(function (a) { a.addEventListener('click', function () { setOpen(false); }); });
     })();
   </script>
 </body>
