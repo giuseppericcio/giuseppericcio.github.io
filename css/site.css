@@ -36,7 +36,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { font-size: 112.5%; scroll-behavior: smooth; scroll-padding-top: 4rem; -webkit-text-size-adjust: 100%; }
+html { font-size: 112.5%; overflow-x: clip; /* nav backdrop is 100vw, wider than the page next to a scrollbar */ scroll-behavior: smooth; scroll-padding-top: 4rem; -webkit-text-size-adjust: 100%; }
 body {
   font-family: var(--sans);
   font-size: 0.95rem;
