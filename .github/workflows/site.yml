@@ -54,6 +54,8 @@ jobs:
 
   deploy:
     needs: build
+    # a skipped `update` (push runs) would otherwise skip this job too
+    if: ${{ !failure() && !cancelled() }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
