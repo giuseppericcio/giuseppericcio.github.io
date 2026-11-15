@@ -1,0 +1,57 @@
+# Manual curation, applied by scripts/update_data.py on every run.
+# This is the only data file you need to edit for publications and projects.
+
+publications:
+  # Keyed by publication id (see _data/publications.yml).
+  # Any field set here overrides the generated value. Useful keys:
+  #   selected: true       show in "Selected publications" on the home page
+  #   award: "Best Paper"  highlighted badge
+  #   url / pdf / code / demo / dataset: links (url = paper page, also used for the title)
+  #   authors: [...]       full author list (Scholar truncates long ones)
+  #   hidden: true         drop the entry from the site
+  #   equal: [1, 2]        mark authors (1-based) as equal contribution
+  a-multilingual-multimodal-medical-examination-dataset-for-vi:
+    selected: true
+    code: https://github.com/PRAISELab-PicusLab/MMMED
+    dataset: https://huggingface.co/datasets/praiselab-picuslab/MMMED
+  healthcare-data-summarization-via-medical-entity-recognition:
+    code: https://github.com/giuseppericcio/HealthcareSummarizationMIMIC
+  pie-med-predicting-interpreting-and-explaining-medical-recom:
+    selected: true
+  imb-an-italian-medical-benchmark-for-question-answering:
+    selected: true
+  combining-evidence-and-reasoning-for-biomedical-fact-checkin:
+    selected: true
+  combating-biomedical-misinformation-through-multi-modal-clai:
+    selected: true
+  medicare-medical-collaborative-agents-reasoning-over-interpr:
+    selected: true
+  brain3d-brain-report-automation-via-inflated-vision-transfor:
+    selected: true
+  caching-hyperedges-kv-cache-reuse-for-hypergraph-rag:
+    selected: true
+    code: https://github.com/PRAISELab-PicusLab/Cachy-Hypergraphrag
+  can-ai-be-a-doctor-a-study-of-empathy-readability-and-alignm:
+    code: https://github.com/PRAISELab-PicusLab/CanAIBeADoctor
+  solve-med-specialized-orchestration-for-leading-vertical-exp:
+    code: https://github.com/PRAISELab-PicusLab/SOLVE-Med
+  improving-preliminary-diagnosis-in-italian-through-a-retriev:
+    code: https://github.com/PRAISELab-PicusLab/RAGMedicalChatbot
+  agent-based-modelling-meets-generative-ai-in-social-network:
+    code: https://github.com/PRAISELab-PicusLab/LLM-Agents-Simulation-Framework
+
+projects:
+  # Repos (owner/name) always shown in "Research projects", in this order,
+  # even if the contributor check does not find me.
+  featured:
+    - PRAISELab-PicusLab/BrainGemma3D
+    - PRAISELab-PicusLab/CER-Fact-Checking
+    - PRAISELab-PicusLab/PIE-Med
+    - PRAISELab-PicusLab/MMMED
+    - PRAISELab-PicusLab/IMB
+    - PRAISELab-PicusLab/DART
+    - giuseppericcio/MediCARE
+    - PRAISELab-PicusLab/SOLVE-Med
+  # Repos (owner/name) never shown.
+  hidden:
+    - giuseppericcio/iocaller.github.io

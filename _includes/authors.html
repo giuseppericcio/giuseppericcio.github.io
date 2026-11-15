@@ -1,0 +1,8 @@
+{%- comment -%} Author list with my name in bold. Pass include.authors (array) and optional include.equal (1-based indexes). {%- endcomment -%}
+{%- assign n = include.authors | size -%}
+{%- for a in include.authors -%}
+  {%- if a == "..." or a == "…" -%}<span>et al.</span>{%- continue -%}{%- endif -%}
+  {%- if a contains "Riccio" -%}<strong>{{ a }}</strong>{%- else -%}{{ a }}{%- endif -%}
+  {%- if include.equal contains forloop.index -%}*{%- endif -%}
+  {%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}

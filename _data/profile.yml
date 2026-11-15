@@ -1,0 +1,24 @@
+# Header and "About" section of the home page.
+name: Giuseppe Riccio
+photo: https://github.com/giuseppericcio.png?size=400
+roles:
+  - Post-Graduate Research Fellow in Data Engineering & AI
+  - University of Naples Federico II · PRAISE Lab / PICUS Lab
+bio: >
+  I work on **AI for healthcare**: language and vision-language models for clinical text and images,
+  multi-agent LLM systems for medical question answering, retrieval-augmented generation over
+  graphs and hypergraphs, and evidence-based fact-checking of biomedical claims.
+  I care about releasing what I build: most of my papers come with open code, datasets and demos
+  on GitHub and Hugging Face.
+bio_more: >
+  I received my MSc (2024) and BSc (2021) in Computer Engineering, both with honors, from the
+  University of Naples Federico II, where I now carry out my research in the
+  [PRAISE Lab / PICUS Lab](https://github.com/PRAISELab-PicusLab).
+links:
+  - { label: Email, url: "mailto:ricciogiuseppe2013@libero.it" }
+  - { label: Google Scholar, url: "https://scholar.google.com/citations?user=et4jCA4AAAAJ" }
+  - { label: ORCID, url: "https://orcid.org/0009-0002-8613-1126" }
+  - { label: GitHub, url: "https://github.com/giuseppericcio" }
+  - { label: Hugging Face, url: "https://huggingface.co/giuseppericcio" }
+  - { label: LinkedIn, url: "https://linkedin.com/in/giuseppe-riccio" }
+  - { label: CV, url: "/assets/Giuseppe Riccio - Resume.pdf" }

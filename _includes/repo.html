@@ -1,0 +1,19 @@
+{%- assign r = include.repo -%}
+<li class="project">
+  <div class="project-head">
+    <a class="title" href="{{ r.url }}">{{ r.name }}</a>
+    <span class="meta">
+      {%- if r.language %}<span>{{ r.language }}</span>{% endif %}
+      {%- if r.stars > 0 %}<span>★ {{ r.stars }}</span>{% endif %}
+      {%- if r.source != "personal" %}<span>{{ r.source }}</span>{% endif %}
+    </span>
+  </div>
+  {%- if r.description != "" %}<div class="desc">{{ r.description }}</div>{% endif %}
+  {%- if r.homepage %}
+  <div class="buttons">
+    {%- if r.homepage contains "huggingface.co/spaces" %}<a href="{{ r.homepage }}">demo</a>
+    {%- elsif r.homepage contains "huggingface.co/datasets" %}<a href="{{ r.homepage }}">dataset</a>
+    {%- else %}<a href="{{ r.homepage }}">website</a>{% endif %}
+  </div>
+  {%- endif %}
+</li>

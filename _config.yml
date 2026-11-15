@@ -1,51 +1,40 @@
-title: "Giuseppe Riccio | AI & Data Engineer"
+title: "Giuseppe Riccio"
 author: "Giuseppe Riccio"
-description: "Computer Engineering MSc. graduated student | Data Engineering and Artificial Intelligence @ University of Naples Federico II" # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+description: "Post-Graduate Research Fellow in Data Engineering & AI at the University of Naples Federico II. LLMs, multimodal models and agents for healthcare."
+url: "https://giuseppericcio.github.io"
+lang: en
 
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "ricciogiuseppe2013@libero.it"
-twitter_username: "giuseppericcio_"
-github_username: "giuseppericcio"
-linkedin_username: "giuseppe-riccio"
-#rss: rss
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
+twitter:
+  username: giuseppericcio_
+social:
+  name: Giuseppe Riccio
+  links:
+    - https://github.com/giuseppericcio
+    - https://linkedin.com/in/giuseppe-riccio
+    - https://scholar.google.com/citations?user=et4jCA4AAAAJ
+    - https://orcid.org/0009-0002-8613-1126
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+google_analytics:
+  - G-ETM7PRGZJX
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-
-header_pages:
-  - resume.md
-  - publications.md
-  - archive.md
+comments_repo: giuseppericcio/giuseppericcio.github.io
 
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
-
-google_analytics:
-  - G-ETM7PRGZJX # New GA4 property
-
-comments_repo: giuseppericcio/giuseppericcio.github.io
-
-titles_from_headings:
-  strip_title: true
-  collections: true
+  - jekyll-seo-tag
+  - jekyll-feed
 
 defaults:
   - scope:
       path: ""
-      type: post
+      type: posts
     values:
+      layout: post
       tags: Other
+
+exclude:
+  - scripts/
+  - README.md
+  - LICENSE
+  - requirements.txt

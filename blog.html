@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+redirect_from:
+  - /archive/
+  - /archive.html
+---
+<section class="section">
+  <h2>Blog</h2>
+  <p class="muted">Write-ups of projects from my studies at the University of Naples Federico II.</p>
+  {%- assign by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {%- for year in by_year %}
+  <h3 class="year">{{ year.name }}</h3>
+  <ul class="list">
+    {%- for post in year.items %}
+    <li>
+      <a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {%- if post.description %}<div class="muted">{{ post.description | truncate: 180 }}</div>{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- endfor %}
+</section>

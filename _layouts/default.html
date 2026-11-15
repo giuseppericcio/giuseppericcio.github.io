@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}">
+  {% if jekyll.environment == 'production' and site.google_analytics %}{% include google-analytics.html %}{% endif %}
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-home" href="{{ '/' | relative_url }}">{{ site.author }}</a>
+    {%- if page.url == '/' %}
+    <a href="#news">News</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#awards">Awards</a>
+    {%- endif %}
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+  </nav>
+
+  <main class="page">
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <p>© {{ site.time | date: '%Y' }} {{ site.author }}.
+      Publications and projects are synced automatically from
+      <a href="{{ site.data.scholar.profile }}">Google Scholar</a> and
+      <a href="https://github.com/giuseppericcio">GitHub</a>{% if site.data.sync.updated %},
+      last change {{ site.data.sync.updated | date: '%-d %B %Y' }}{% endif %}.</p>
+  </footer>
+</body>
+</html>

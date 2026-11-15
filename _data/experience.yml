@@ -1,23 +1,20 @@
+# Experience & education, newest first. Markdown allowed in `text`.
+- title: Post-Graduate Research Fellow in Data Engineering & AI
+  org: University of Naples Federico II · PRAISE Lab / PICUS Lab
+  dates: 2024 — present  # TODO: check start date
+  text: >
+    Research on LLMs, multi-agent systems and multimodal models for clinical decision support,
+    medical question answering and biomedical fact-checking.
 
+- title: MSc in Computer Engineering (Data Engineering & AI), with honors
+  org: University of Naples Federico II
+  dates: 2021 — 2024
+  text: >
+    Thesis on healthcare decision support with graph machine learning and LLM agents, which became
+    [MediCARE](https://github.com/giuseppericcio/MediCARE).
 
-#- company: American Money Group, Inc
-#  summary:
-#  logo: /img/companylogos/amg.jpg
-#  url: http://www.americanmoneygroup.com/
-#  positions:
-#  - title: IT Consultant
-#    startdate: 2009-03-01
-#    enddate: 2011-05-01
-#    summary: Provided a broad range of IT services. Helpdesk support, computer repair, VoIP management & configuration, as well as website and intranet maintenance.
-#    projects:
-
-#- company: Me-N-Ed's Pizza Parlor
-#  summary:
-#  logo: /img/companylogos/mne.jpg
-#  url: https://www.meneds.com/
-#  positions:
-#  - title: Employee
-#    startdate: 2002-09-01
-#    enddate: 2008-10-01
-#    summary: A family owned business from 1963 to 2020. Worked in the kitchen and the bar, as a cashier and a cook. Helped with business paperwork, quickbooks, building spreadsheets, and in recent years during the COVID pandemic, helped to run social media to keep business going strong with a delivery only business.
-#    projects:
+- title: BSc in Computer Engineering, with honors
+  org: University of Naples Federico II
+  dates: 2018 — 2021
+  text: >
+    Thesis on [just-in-time defect prediction](https://github.com/giuseppericcio/JustinTimePrediction) of software commits.

@@ -1,0 +1,142 @@
+---
+layout: default
+redirect_from:
+  - /publications/
+  - /resume/
+  - /resume.html
+---
+{%- assign p = site.data.profile -%}
+<header class="hero" id="about">
+  <img class="avatar" src="{{ p.photo }}" alt="{{ p.name }}" width="132" height="132">
+  <div>
+    <h1>{{ p.name }}</h1>
+    {%- for r in p.roles %}<p class="role">{{ r }}</p>{% endfor %}
+    <p class="links">
+      {%- for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+    </p>
+  </div>
+</header>
+
+<section class="section bio">
+  {{ p.bio | markdownify }}
+  {{ p.bio_more | markdownify }}
+  {%- assign s = site.data.scholar %}
+  {%- if s.citations %}
+  <p class="metrics"><a href="{{ s.profile }}">{{ s.citations }} citations · h-index {{ s.h_index }} · i10-index {{ s.i10_index }}</a></p>
+  {%- endif %}
+</section>
+
+{%- assign news_years = site.data.news | group_by_exp: "n", "n.date | slice: 0, 4" %}
+<section class="section" id="news">
+  <h2>News</h2>
+  {%- for y in news_years %}
+  <details{% if forloop.first %} open{% endif %}>
+    <summary>{{ y.name }}</summary>
+    <ul class="news">
+      {%- for n in y.items %}<li>{{ n.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+    </ul>
+  </details>
+  {%- endfor %}
+</section>
+
+{%- assign pubs = site.data.publications %}
+{%- assign pub_years = pubs | group_by: "year" %}
+<section class="section" id="publications">
+  <h2>Publications</h2>
+  <div class="tabs" role="tablist" data-target="pub-list">
+    <button type="button" class="active" data-filter="selected">Selected</button>
+    <button type="button" data-filter="all">All ({{ pubs | size }})</button>
+    {%- for y in pub_years limit: 3 %}<button type="button" data-filter="y{{ y.name }}">{{ y.name }}</button>{% endfor %}
+    {%- if pub_years.size > 3 %}<button type="button" data-filter="older">Older</button>{% endif %}
+  </div>
+  <ol class="pubs" id="pub-list">
+    {%- for pub in pubs %}
+    {%- assign ys = pub.year | append: "" %}{% assign yi = 0 %}{% for y in pub_years %}{% if y.name == ys %}{% assign yi = forloop.index %}{% endif %}{% endfor %}
+    <li class="pub y{{ pub.year }}{% if yi > 3 %} older{% endif %}{% if pub.selected %} selected{% endif %}">
+      <div class="title">{% assign main = pub.url | default: pub.scholar_url %}{% if main %}<a href="{{ main }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</div>
+      <div class="authors">{% include authors.html authors=pub.authors equal=pub.equal %}</div>
+      <div class="venue"><em>{{ pub.venue }}</em>, {{ pub.year }}{% if pub.award %} · <span class="award">{{ pub.award }}</span>{% endif %}</div>
+      <div class="buttons">
+        {%- if pub.url %}<a href="{{ pub.url }}">paper</a>{% endif %}
+        {%- if pub.pdf %}<a href="{{ pub.pdf }}">pdf</a>{% endif %}
+        {%- if pub.code %}<a href="{{ pub.code }}">code</a>{% endif %}
+        {%- if pub.dataset %}<a href="{{ pub.dataset }}">dataset</a>{% endif %}
+        {%- if pub.demo %}<a href="{{ pub.demo }}">demo</a>{% endif %}
+        {%- if pub.citations > 0 %}<span class="cites">{{ pub.citations }} citation{% if pub.citations > 1 %}s{% endif %}</span>{% endif %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ol>
+  <p class="muted">Full and always up-to-date list on <a href="{{ site.data.scholar.profile }}">Google Scholar</a>.</p>
+</section>
+
+{%- assign repos = site.data.repos %}
+{%- assign featured = repos | where_exp: "r", "r.featured" | sort: "featured" %}
+{%- assign lab = repos | where_exp: "r", "r.featured == nil" | where_exp: "r", "r.source != 'personal'" %}
+{%- assign personal = repos | where_exp: "r", "r.featured == nil" | where: "source", "personal" %}
+<section class="section" id="projects">
+  <h2>Projects</h2>
+  <ul class="projects">
+    {%- for r in featured %}{% include repo.html repo=r %}{% endfor %}
+  </ul>
+  {%- if lab.size > 0 %}
+  <details>
+    <summary>More research code ({{ lab.size }})</summary>
+    <ul class="projects compact">{% for r in lab %}{% include repo.html repo=r %}{% endfor %}</ul>
+  </details>
+  {%- endif %}
+  {%- if personal.size > 0 %}
+  <details>
+    <summary>Personal &amp; university projects ({{ personal.size }})</summary>
+    <ul class="projects compact">{% for r in personal %}{% include repo.html repo=r %}{% endfor %}</ul>
+  </details>
+  {%- endif %}
+</section>
+
+<section class="section" id="experience">
+  <h2>Experience &amp; Education</h2>
+  <ul class="entries">
+    {%- for e in site.data.experience %}
+    <li>
+      <div class="entry-head"><span class="title">{{ e.title }}</span><span class="dates">{{ e.dates }}</span></div>
+      <div class="muted">{{ e.org }}</div>
+      {%- if e.text %}<div class="entry-text">{{ e.text | markdownify }}</div>{% endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section class="section" id="awards">
+  <h2>Awards &amp; Certifications</h2>
+  <ul class="entries">
+    {%- for a in site.data.awards %}
+    <li class="award-row"><span class="dates">{{ a.year }}</span><span>{% if a.url %}<a href="{{ a.url }}">{{ a.text }} ↗</a>{% else %}{{ a.text }}{% endif %}</span></li>
+    {%- endfor %}
+  </ul>
+</section>
+
+{%- if site.posts.size > 0 %}
+<section class="section" id="blog">
+  <h2>From the blog</h2>
+  <ul class="list">
+    {%- for post in site.posts limit: 3 %}
+    <li><a class="title" href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="muted">· {{ post.date | date: '%Y' }}</span></li>
+    {%- endfor %}
+  </ul>
+  <p><a href="{{ '/blog/' | relative_url }}">All posts →</a></p>
+</section>
+{%- endif %}
+
+<script>
+  document.querySelectorAll('.tabs').forEach(function (tabs) {
+    var list = document.getElementById(tabs.dataset.target);
+    function apply(filter) {
+      tabs.querySelectorAll('button').forEach(function (b) { b.classList.toggle('active', b.dataset.filter === filter); });
+      list.querySelectorAll('li').forEach(function (li) {
+        li.hidden = !(filter === 'all' || li.classList.contains(filter));
+      });
+    }
+    tabs.addEventListener('click', function (e) { if (e.target.dataset.filter) apply(e.target.dataset.filter); });
+    apply('selected');
+  });
+</script>
