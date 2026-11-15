@@ -12,6 +12,7 @@
   venue: arXiv preprint arXiv:2602.22098
   year: 2026
   citations: 4
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:M3NEmzRMIkIC
   id: brain3d-brain-report-automation-via-inflated-vision-transfor
   code: https://github.com/PRAISELab-PicusLab/BrainGemma3D
   demo: https://huggingface.co/spaces/giuseppericcio/BrainGemma3D
@@ -24,9 +25,10 @@
   - M Postiglione
   - G Riccio
   - A Romano
-  venue: Proceedings of the 35th ACM International Conference on Information and Knowledge Management (CIKM)
+  venue: Proceedings of the 35th ACM International Conference on Information and …
   year: 2026
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:BqipwSGYUEgC
   id: caching-hyperedges-kv-cache-reuse-for-hypergraph-rag
   code: https://github.com/PRAISELab-PicusLab/Cachy-Hypergraphrag
   selected: true
@@ -39,9 +41,10 @@
   - F Di Serio
   - G Iozzino
   - '...'
-  venue: Proceedings of the 2026 International Conference on Information Technology
+  venue: Proceedings of the 2026 International Conference on Information Technology …
   year: 2026
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:YFjsv_pBGBYC
   id: curriculum-trained-vertical-agents-for-italian-medical-quest
 - title: Parameter-Efficient Adaptation of Vision-Language Models for Medical Visual Question Answering
   authors:
@@ -52,9 +55,10 @@
   - M Gravina
   - M Postiglione
   - '...'
-  venue: 2026 IEEE Symposium on Computers and Communications (ISCC)
+  venue: 2026 IEEE Symposium on Computers and Communications (ISCC), 1-6
   year: 2026
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:GnPB-g6toBAC
   id: parameter-efficient-adaptation-of-vision-language-models-for
 - title: 'MediCARE: Medical Collaborative Agents REasoning over Interpretable Heterogeneous Graphs'
   authors:
@@ -65,13 +69,14 @@
   - G Riccio
   - A Romano
   - '...'
-  venue: Artificial Intelligence in Medicine
+  venue: Artificial Intelligence in Medicine, 103444
   year: 2026
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:blknAaTinKkC
   id: medicare-medical-collaborative-agents-reasoning-over-interpr
   code: https://github.com/giuseppericcio/MediCARE
   selected: true
-- title: Can "AI" Be a Doctor? A Study of Empathy, Readability, and Alignment in Clinical LLMs
+- title: Can" AI" Be a Doctor? A Study of Empathy, Readability, and Alignment in Clinical LLMs
   authors:
   - M Barone
   - F Di Serio
@@ -83,6 +88,7 @@
   venue: arXiv preprint arXiv:2604.20791
   year: 2026
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:JV2RwH3_ST0C
   id: can-ai-be-a-doctor-a-study-of-empathy-readability-and-alignm
   code: https://github.com/PRAISELab-PicusLab/CanAIBeADoctor
 - title: Combining evidence and reasoning for biomedical fact-checking
@@ -92,9 +98,10 @@
   - G Riccio
   - M Postiglione
   - V Moscato
-  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and …
   year: 2025
   citations: 13
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:7PzlFSSx8tAC
   id: combining-evidence-and-reasoning-for-biomedical-fact-checkin
   code: https://github.com/PRAISELab-PicusLab/CER
   selected: true
@@ -105,9 +112,10 @@
   - G Riccio
   - M Postiglione
   - V Moscato
-  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval
+  venue: Proceedings of the 48th International ACM SIGIR Conference on Research and …
   year: 2025
   citations: 6
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:dhFuZR0502QC
   id: combating-biomedical-misinformation-through-multi-modal-clai
   code: https://github.com/PRAISELab-PicusLab/CER-Fact-Checking
   demo: https://huggingface.co/spaces/praiselab-picuslab/CER-Fact-Checking
@@ -121,22 +129,24 @@
   - D Russo
   - M Postiglione
   - '...'
-  venue: 2025 IEEE 38th International Symposium on Computer-Based Medical Systems (CBMS)
+  venue: 2025 IEEE 38th International Symposium on Computer-Based Medical Systems …
   year: 2025
   citations: 5
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:QIV2ME_5wuYC
   id: a-multilingual-multimodal-medical-examination-dataset-for-vi
   selected: true
   code: https://github.com/PRAISELab-PicusLab/MMMED
   dataset: https://huggingface.co/datasets/praiselab-picuslab/MMMED
-- title: 'PIE-Med: Predicting, Interpreting and Explaining Medical Recommendations'
+- title: 'PIE-Med: Predicting, Interpreting and Explaining Medical Recommendations'
   authors:
   - A Romano
   - G Riccio
   - M Postiglione
   - V Moscato
-  venue: European Conference on Information Retrieval (ECIR)
+  venue: European Conference on Information Retrieval, 6-12
   year: 2025
   citations: 4
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:mVmsd5A6BfQC
   id: pie-med-predicting-interpreting-and-explaining-medical-recom
   code: https://github.com/PRAISELab-PicusLab/PIE-Med
   demo: https://huggingface.co/spaces/praiselab-picuslab/PIE-Med
@@ -148,9 +158,10 @@
   - M Barone
   - M Postiglione
   - V Moscato
-  venue: Proceedings of the Eleventh Italian Conference on Computational Linguistics (CLiC-it)
+  venue: Proceedings of the Eleventh Italian Conference on Computational Linguistics …
   year: 2025
   citations: 3
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:L8Ckcad2t8MC
   id: imb-an-italian-medical-benchmark-for-question-answering
   code: https://github.com/PRAISELab-PicusLab/IMB
   dataset: https://huggingface.co/datasets/praiselab-picuslab/IMB
@@ -164,12 +175,13 @@
   - M Barone
   - M Postiglione
   - '...'
-  venue: 'ECAI 2025: 28th European Conference on Artificial Intelligence'
+  venue: 'ECAI 2025: 28th European Conference on Artificial Intelligence 25-30 October …'
   year: 2025
   citations: 3
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:qUcmZB5y_30C
   id: solve-med-specialized-orchestration-for-leading-vertical-exp
   code: https://github.com/PRAISELab-PicusLab/SOLVE-Med
-- title: 'Dart: A structured dataset of regulatory drug documents in Italian for clinical NLP'
+- title: 'Dart: A structured dataset of regulatory drug documents in italian for clinical nlp'
   authors:
   - M Barone
   - A Laudante
@@ -180,6 +192,7 @@
   venue: arXiv preprint arXiv:2510.18475
   year: 2025
   citations: 2
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:IWHjjKOFINEC
   id: dart-a-structured-dataset-of-regulatory-drug-documents-in-it
   code: https://github.com/PRAISELab-PicusLab/DART
   dataset: https://huggingface.co/datasets/praiselab-picuslab/DART
@@ -192,9 +205,10 @@
   - F Di Serio
   - A Scialdone
   - '...'
-  venue: 2025 International Symposium on Multimedia (ISM)
+  venue: 2025 International Symposium on Multimedia (ISM), 208-213
   year: 2025
   citations: 1
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:maZDTaKrznsC
   id: amico-a-semantic-and-multimodal-framework-for-ai-assisted-cl
 - title: 'SynthMed: Generating and Detecting Multimodal Deepfakes for Healthcare Communication'
   authors:
@@ -204,12 +218,13 @@
   - M Postiglione
   - G Riccio
   - A Romano
-  venue: 2025 International Symposium on Multimedia (ISM)
+  venue: 2025 International Symposium on Multimedia (ISM), 108-115
   year: 2025
   citations: 1
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:k_IJM867U9cC
   id: synthmed-generating-and-detecting-multimodal-deepfakes-for-h
   code: https://github.com/PRAISELab-PicusLab/Deepfake-Detection-in-Healthcare
-- title: Improving Preliminary Diagnosis in Italian Through a Retrieval-Augmented Medical Chatbot
+- title: Improving Preliminary Diagnosis in Italian Through a Retrieval-Augmented Medical Chatbot.
   authors:
   - M Barone
   - GM Orlando
@@ -221,6 +236,7 @@
   venue: ITADATA
   year: 2025
   citations: 1
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:hC7cP41nSMkC
   id: improving-preliminary-diagnosis-in-italian-through-a-retriev
   code: https://github.com/PRAISELab-PicusLab/RAGMedicalChatbot
 - title: 'Transforming healthcare with AI: the work of CINI-AIIS at Federico II University'
@@ -231,9 +247,10 @@
   - GM De Filippis
   - A De Simone
   - '...'
-  venue: Joint Proceedings of the Thematic Workshops at Ital-IA 2025
+  venue: oint Proceedings of the Thematic Workshops at Ital-IA 2025 colocated with …
   year: 2025
   citations: 0
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:hMod-77fHWUC
   id: transforming-healthcare-with-ai-the-work-of-cini-aiis-at-fed
 - title: Agent-based modelling meets generative AI in social network simulations
   authors:
@@ -244,9 +261,10 @@
   - GM Orlando
   - D Russo
   - '...'
-  venue: International Conference on Advances in Social Networks Analysis and Mining (ASONAM)
+  venue: International conference on advances in social networks analysis and mining …
   year: 2024
   citations: 92
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:qxL8FJ1GzNcC
   id: agent-based-modelling-meets-generative-ai-in-social-network
   code: https://github.com/PRAISELab-PicusLab/LLM-Agents-Simulation-Framework
 - title: 'From explanation to exploration: Promoting diversity in recommendation systems'
@@ -258,19 +276,21 @@
   - D Russo
   - GM Orlando
   - '...'
-  venue: International Workshop on Recommender Systems for Sustainability and Social Good
+  venue: International Workshop on Recommender Systems for Sustainability and Social …
   year: 2024
   citations: 7
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:9ZlFYXVOiuMC
   id: from-explanation-to-exploration-promoting-diversity-in-recom
-- title: Identifying Cardiological Disorders in Spanish via Data Augmentation and Fine-Tuned Language Models
+- title: Identifying Cardiological Disorders in Spanish via Data Augmentation and Fine-Tuned Language Models.
   authors:
   - A Romano
   - G Riccio
   - M Postiglione
   - V Moscato
-  venue: CLEF (Working Notes)
+  venue: CLEF (Working Notes), 207-222
   year: 2024
   citations: 6
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:Zph67rFs4hoC
   id: identifying-cardiological-disorders-in-spanish-via-data-augm
 - title: 'EuropeanLawAdvisor: an open source search engine for European laws'
   authors:
@@ -281,11 +301,12 @@
   - G Riccio
   - V La Gatta
   - '...'
-  venue: 2024 IEEE International Conference on Big Data (BigData)
+  venue: 2024 IEEE International Conference on Big Data (BigData), 4751-4756
   year: 2024
   citations: 5
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:4DMP91E08xMC
   id: europeanlawadvisor-an-open-source-search-engine-for-european
-- title: 'Scaling LLM-based knowledge graph generation: A case study of Italian geopolitical news'
+- title: 'Scaling llm-based knowledge graph generation: A case study of italian geopolitical news'
   authors:
   - D Russo
   - GM Orlando
@@ -294,11 +315,12 @@
   - V La Gatta
   - M Postiglione
   - '...'
-  venue: 2024 IEEE International Conference on Big Data (BigData)
+  venue: 2024 IEEE International Conference on Big Data (BigData), 3494-3497
   year: 2024
   citations: 5
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:aqlVkmm33-oC
   id: scaling-llm-based-knowledge-graph-generation-a-case-study-of
-- title: Healthcare Data Summarization via Medical Entity Recognition and Generative AI
+- title: Healthcare Data Summarization via Medical Entity Recognition and Generative AI.
   authors:
   - G Riccio
   - A Romano
@@ -310,5 +332,6 @@
   venue: itaDATA
   year: 2023
   citations: 8
+  scholar_url: https://scholar.google.com/citations?view_op=view_citation&hl=en&oe=ASCII&user=et4jCA4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=et4jCA4AAAAJ:u5HHmVD_uO8C
   id: healthcare-data-summarization-via-medical-entity-recognition
   code: https://github.com/giuseppericcio/HealthcareSummarizationMIMIC

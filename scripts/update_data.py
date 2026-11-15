@@ -67,7 +67,8 @@ def dump_yaml(name, data, header, generated=True):
 def http_get(url, headers=None):
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, **(headers or {})})
     with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8")
+        # Scholar may answer in Latin-1 depending on the client locale
+        return r.read().decode(r.headers.get_content_charset() or "utf-8", errors="replace")
 
 
 # ---------------------------------------------------------------------- helpers
@@ -153,7 +154,7 @@ def fetch_repos(curation):
     featured = curation.get("featured", [])
     repos = []
     for r in gh_paged(f"/users/{GITHUB_USER}/repos?type=owner&sort=pushed"):
-        if r["fork"] or r["archived"] or r["name"].lower() == f"{GITHUB_USER}.github.io":
+        if r["fork"] or r["archived"] or r["name"].lower() in {GITHUB_USER, f"{GITHUB_USER}.github.io"}:
             continue
         repos.append(repo_entry(r, "personal"))
 
